@@ -7,6 +7,7 @@
 //
 
 #import "LZViewController.h"
+#import <ClassifyTool.h>
 
 @interface LZViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"%@",[ClassifyTool phoneNumber]);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
